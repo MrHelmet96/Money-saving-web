@@ -80,6 +80,7 @@ main {
     position: relative;
     top: -185px;
     left: 10px;
+    transition: left 500ms cubic-bezier(0.175, 0.865, 0.320, 1.275);
 }
 
 .container__login-register form {
