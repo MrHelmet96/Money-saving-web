@@ -122,3 +122,40 @@ main {
     opacity: 1;
     display: block;
 }
+
+.form__register{
+    display: none;
+}
+
+/* Responsive design */
+
+@media (max-width: 850px) {
+    
+    main{
+        margin-top: 50px;
+    }
+
+    .behind__box{
+        max-width: 350px;
+        height: 300px;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .behind__box div{
+        margin: 0px;
+        position: absolute;
+    }
+
+    /*Responsive form*/
+
+    .container__login-register{
+        top: -10px;
+        left: -5px;
+        margin: auto;
+    }
+
+    .container__login-register form{
+        position: relative;
+    }
+}
