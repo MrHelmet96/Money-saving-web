@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    font-family: sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 body {
@@ -130,7 +130,7 @@ main {
 
 /* Responsive design */
 
-@media (max-width: 850px) {
+@media screen and (max-width: 850px) {
     
     main{
         margin-top: 50px;
