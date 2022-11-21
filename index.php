@@ -29,19 +29,19 @@
             <!-- Login and Register forms  -->
             <div class="container__login-register">
                 <!-- Login form -->
-                <form action="php/register_users_be.php" method="POST" class="form__login">
+                <form action="" class="form__login">
                     <h2>Iniciar Sesión</h2>
                     <input type="text" placeholder="Correo Electrónico">
                     <input type="password" placeholder="Contraseña">
                     <button type="submit">Entrar</button>
                 </form>
                 <!-- Register form -->
-                <form action="" class="form__register">
+                <form action="php/register_users_be.php" method="POST" class="form__register">
                     <h2>Registrarse</h2>
                     <input type="text" placeholder="Nombre Completo" name="full_name">
                     <input type="text" placeholder="Correo electrónico" name="email">
-                    <input type="text" placeholder="Nombre de usuario" name="user_name">
-                    <input type="password" placeholder="Contraseña" name="password">
+                    <input type="text" placeholder="Nombre de usuario" name="users_name">
+                    <input type="password" placeholder="Contraseña" name="users_password">
                     <button type="submit">Registrarse</button>
                 </form>
             </div>
