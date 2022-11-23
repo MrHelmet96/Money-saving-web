@@ -31,8 +31,8 @@
                 <!-- Login form -->
                 <form action="" class="form__login">
                     <h2>Iniciar Sesión</h2>
-                    <input type="text" placeholder="Correo Electrónico">
-                    <input type="password" placeholder="Contraseña">
+                    <input type="text" placeholder="Correo Electrónico" name="email">
+                    <input type="password" placeholder="Contraseña" name="users_password">
                     <button type="submit">Entrar</button>
                 </form>
                 <!-- Register form -->
