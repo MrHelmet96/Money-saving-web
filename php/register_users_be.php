@@ -6,6 +6,8 @@
     $email = $_POST['email'];
     $users_name = $_POST['users_name'];
     $users_password = $_POST['users_password'];
+    $encrypted_password = hash('sha512', $users_password); //encrypting the password
+
 
     $query = "INSERT INTO users(full_name, email, users_name, users_password)
               VALUES('$full_name', '$email', '$users_name', '$users_password')";
@@ -56,4 +58,3 @@ if(mysqli_num_rows($check_usersName) > 0){
     }
 
     mysqli_close($connection);
-?>
