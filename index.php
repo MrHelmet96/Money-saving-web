@@ -1,3 +1,14 @@
+<?php
+
+    session_start();
+
+    if(isset($_SESSION['users_name'])){
+        header("location: welcome.php");
+    }
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
