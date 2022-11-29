@@ -6,7 +6,7 @@
     $email = $_POST['email'];
     $users_name = $_POST['users_name'];
     $users_password = $_POST['users_password'];
-    $encrypted_password = hash('sha512', $users_password); //encrypting the password
+    $users_password = hash('sha512', $users_password); //encrypting the password
 
 
     $query = "INSERT INTO users(full_name, email, users_name, users_password)
